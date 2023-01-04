@@ -2,14 +2,14 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "fork" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "fork " ]
 
 jobs:
 Add Image 
   build:
-
+Image URL https://www.google.com/search?q=docker+image&rlz=1CDGOYI_enGB1036GB1036&hl=en-GB&prmd=ivn&sxsrf=AJOqlzUiLEQTod63mWME4MEMsQwSXEHXMg:1672869648215&source=lnms&tbm=isch&sa=X&ved=2ahUKEwijo4yJ9a78AhVDRkEAHfvYAjEQ_AUoAXoECAIQAQ&biw=414&bih=720&dpr=2#imgrc=wOtWMza9IlyDOM
     runs-on: ubuntu-latest
 
     steps:
