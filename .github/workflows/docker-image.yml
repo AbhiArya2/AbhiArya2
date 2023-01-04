@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "from main" ]
+    branches: [ "fork" ]
   pull_request:
-    branches: [ "to fork " ]
+    branches: [ "fork " ]
 
 jobs:
 Add Image 
